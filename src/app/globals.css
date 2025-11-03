@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+:root {
+  --background: #f8f8f8;
+  --foreground: #000000;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #000000;
+    --foreground: #f8f8f8;
+  }
+}
+
+* {
+  &::-webkit-scrollbar {
+    width: 0.25rem;
+  }
+
+  &::-webkit-scrollbar-track {
+    @apply bg-white dark:bg-black;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    @apply bg-black dark:bg-neutral-700;
+  }
+}
+
+::selection {
+  @apply bg-black text-[#dadade] dark:bg-[#dadade] dark:text-black;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-geist-sans);
+}
