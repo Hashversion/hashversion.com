@@ -1,7 +1,11 @@
+import Container from "@/components/container";
+
 export default function Home() {
   return (
-    <div className="min-h-[200vh]">
-      <h1 className="text-3xl">Hashversion</h1>
-    </div>
+    <section className="py-6">
+      <Container>
+        <div></div>
+      </Container>
+    </section>
   );
 }
