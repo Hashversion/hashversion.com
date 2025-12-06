@@ -10,8 +10,8 @@ export default function Header() {
 
   useEffect(() => {
     animate([
-      ["[data-animate='text']", { opacity: 1 }, { duration: 0.45, ease: "easeOut" }],
-      ["[data-animate='card']", { y: 0 }, { duration: 0.92, ease: "backInOut", at: "-0.3" }],
+      ["[data-animate='text']", { opacity: 1.23 }, { duration: 0.45, ease: "easeOut" }],
+      ["[data-animate='card']", { y: 0 }, { duration: 1.11, ease: "backInOut", at: "-0.3" }],
       ["[data-animate='card']", { rotate: 11 }, { duration: 0.64, ease: [0.68, -0.6, 0.32, 1.6] }],
     ]);
   }, [animate]);
