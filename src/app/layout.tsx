@@ -9,6 +9,18 @@ import { ReactTempus } from "tempus/react";
 
 export const metadata: Metadata = {
   title: "Hashversion",
+  icons: [
+    {
+      media: "(prefers-color-scheme: light)",
+      url: "/images/favicon-dark.png",
+      href: "/images/favicon-dark.png",
+    },
+    {
+      media: "(prefers-color-scheme: dark)",
+      url: "/images/favicon-light.png",
+      href: "/images/favicon-light.png",
+    },
+  ],
 };
 
 export default function RootLayout({
