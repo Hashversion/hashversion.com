@@ -1,7 +1,7 @@
 "use client";
 
 import Container from "@/components/container";
-import HashversionCard from "@/components/header/hashversion-card";
+import ProfileCard from "@/components/header/profile-card";
 import { motion, useAnimate } from "motion/react";
 import { useEffect } from "react";
 
@@ -28,7 +28,7 @@ export default function Header() {
             data-animate="card"
             className="absolute z-20"
           >
-            <HashversionCard />
+            <ProfileCard />
           </motion.div>
           <motion.h1
             initial={{ opacity: 0 }}
