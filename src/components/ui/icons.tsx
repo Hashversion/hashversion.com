@@ -107,13 +107,99 @@ export const Icons = {
         <path
           d="M21.3333 64L95.0721 105.781C122.257 121.184 133.743 121.184 160.928 105.781L234.667 64"
           stroke="currentColor"
-          strokeWidth="16"
+          strokeWidth="24"
           strokeLinejoin="round"
         />
         <path
           d="M21.5015 143.74C22.1987 176.439 22.5474 192.788 34.6128 204.9C46.6781 217.011 63.4701 217.433 97.0541 218.276C117.752 218.797 138.247 218.797 158.946 218.276C192.53 217.433 209.322 217.011 221.388 204.9C233.453 192.788 233.802 176.439 234.498 143.74C234.723 133.226 234.723 122.774 234.498 112.26C233.802 79.5612 233.453 63.2116 221.388 51.1004C209.322 38.9891 192.53 38.5673 158.946 37.7234C138.247 37.2033 117.752 37.2033 97.054 37.7233C63.4701 38.567 46.6781 38.9889 34.6127 51.1003C22.5473 63.2115 22.1987 79.5611 21.5014 112.26C21.2771 122.774 21.2773 133.226 21.5015 143.74Z"
           stroke="currentColor"
-          strokeWidth="16"
+          strokeWidth="24"
+          strokeLinejoin="round"
+        />
+      </svg>
+    );
+  },
+  PinLocation: (props: IconProps) => {
+    return (
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="32"
+        height="32"
+        viewBox="0 0 32 32"
+        fill="none"
+        {...props}
+      >
+        <path
+          d="M16 14.6667C18.9455 14.6667 21.3333 12.2789 21.3333 9.33333C21.3333 6.38781 18.9455 4 16 4C13.0544 4 10.6666 6.38781 10.6666 9.33333C10.6666 12.2789 13.0544 14.6667 16 14.6667Z"
+          stroke="currentColor"
+          strokeWidth="3"
+        />
+        <path d="M16 14.6666V24" stroke="currentColor" strokeWidth="3" strokeLinecap="round" />
+        <path
+          d="M22.6667 25.3334C22.6667 26.8062 19.6819 28 16 28C12.3181 28 9.33337 26.8062 9.33337 25.3334"
+          stroke="currentColor"
+          strokeWidth="3"
+          strokeLinecap="round"
+        />
+      </svg>
+    );
+  },
+  GenderMale: (props: IconProps) => {
+    return (
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="32"
+        height="32"
+        viewBox="0 0 32 32"
+        fill="none"
+        {...props}
+      >
+        <path
+          d="M28 12C28 16.4183 24.4183 20 20 20C15.5817 20 12 16.4183 12 12C12 7.58172 15.5817 4 20 4C24.4183 4 28 7.58172 28 12Z"
+          stroke="currentColor"
+          strokeWidth="3"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+        <path
+          d="M4 20V22.6667C4 25.1808 4 26.4379 4.78105 27.2189C5.56209 28 6.81917 28 9.33333 28H12M5.33333 26.6667L14 18"
+          stroke="currentColor"
+          strokeWidth="3"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </svg>
+    );
+  },
+  Volume: (props: IconProps) => {
+    return (
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="32"
+        height="32"
+        viewBox="0 0 32 32"
+        fill="none"
+        {...props}
+      >
+        <path
+          d="M18.6667 19.7513V12.2486C18.6667 8.05499 18.6667 5.95819 17.433 5.43638C16.1992 4.91455 14.7471 6.39722 11.8431 9.36254C10.3392 10.8982 9.48116 11.2382 7.34141 11.2382C5.47012 11.2382 4.53448 11.2382 3.86236 11.6968C2.46716 12.6487 2.67805 14.5093 2.67805 16C2.67805 17.4906 2.46716 19.3512 3.86236 20.3032C4.53448 20.7617 5.47012 20.7617 7.34141 20.7617C9.48116 20.7617 10.3392 21.1018 11.8431 22.6374C14.7471 25.6028 16.1992 27.0854 17.433 26.5636C18.6667 26.0417 18.6667 23.9449 18.6667 19.7513Z"
+          stroke="currentColor"
+          strokeWidth="3"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+        <path
+          d="M22.6667 12C23.5006 13.0929 24 14.4845 24 16C24 17.5155 23.5006 18.9071 22.6667 20"
+          stroke="currentColor"
+          strokeWidth="3"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+        <path
+          d="M26.6667 9.33331C28.3344 11.1548 29.3334 13.4742 29.3334 16C29.3334 18.5257 28.3344 20.8452 26.6667 22.6666"
+          stroke="currentColor"
+          strokeWidth="3"
+          strokeLinecap="round"
           strokeLinejoin="round"
         />
       </svg>
