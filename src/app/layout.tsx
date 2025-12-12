@@ -2,6 +2,7 @@ import { Lenis } from "@/app/(components)/lenis";
 import Header from "@/components/header";
 import { fontsVariable } from "@/styles/fonts";
 import "@/styles/globals.css";
+import { GoogleAnalytics } from "@next/third-parties/google";
 import { LazyMotion, domAnimation } from "motion/react";
 import * as m from "motion/react-m";
 import type { Metadata } from "next";
@@ -42,6 +43,7 @@ export default function RootLayout({
           <Lenis root={true} options={{}} />
           <ReactTempus patch />
         </m.body>
+        <GoogleAnalytics gaId="G-QX3F7Q4FR3" />
       </LazyMotion>
     </html>
   );
