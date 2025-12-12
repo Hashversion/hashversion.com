@@ -1,6 +1,6 @@
 import { Lenis } from "@/app/(components)/lenis";
 import Header from "@/components/header";
-import { geistSans, neutralface } from "@/styles/fonts";
+import { fontsVariable } from "@/styles/fonts";
 import "@/styles/globals.css";
 import { LazyMotion, domAnimation } from "motion/react";
 import * as m from "motion/react-m";
@@ -29,13 +29,13 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" dir="ltr">
+    <html lang="en" dir="ltr" className={fontsVariable}>
       <LazyMotion features={domAnimation}>
         <m.body
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 1.23 }}
-          className={`${geistSans.variable} ${neutralface.variable} antialiased`}
+          className={`font-sans antialiased`}
         >
           <Header />
           {children}

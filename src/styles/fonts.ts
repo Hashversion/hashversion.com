@@ -11,3 +11,12 @@ export const neutralface = localFont({
   variable: "--font-neutralface",
   preload: true,
 });
+
+export const krylon = localFont({
+  src: [{ path: "../../public/fonts/Krylon-Regular.woff2" }],
+  variable: "--font-krylon",
+  preload: true,
+});
+
+const fonts = [geistSans, neutralface, krylon];
+export const fontsVariable = fonts.map((font) => font.variable).join(" ");

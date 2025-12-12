@@ -9,6 +9,7 @@ const nextConfig: NextConfig = {
     browserDebugInfoInTerminal: true,
     turbopackFileSystemCacheForDev: true,
   },
+  images: { unoptimized: true },
   output: "export",
 };
 
