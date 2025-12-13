@@ -78,8 +78,8 @@ export default function Home() {
                 <div className="flex items-baseline justify-center gap-4">
                   <div className="size-2 rounded-[3px] bg-black dark:bg-white" />
                   <p className="w-[430px] text-[12px]">
-                    Hello, I’m Jay Krishna, a 21 y/o high-school dropout designer, developer, security
-                    researcher (hobby), polymath, and young jury member{" "}
+                    Hello, I’m Jay Krishna, a 21 y/o high-school dropout multidisciplinary designer, product
+                    engineer, polymath, and young jury member{" "}
                     <a
                       href="https://awwwards.com/jury-member/jaykrishna"
                       target="_blank"
