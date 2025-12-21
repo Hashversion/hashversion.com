@@ -63,7 +63,7 @@ export const Icons = {
         {...props}
       >
         <g clipPath="url(#clip0_9_7)">
-          <circle cx="128" cy="128" r="128" fill="black" />
+          <circle cx="128" cy="128" r="128" fill="currentColor" />
         </g>
         <defs>
           <clipPath id="clip0_9_7">
@@ -199,6 +199,33 @@ export const Icons = {
           d="M26.6667 9.33331C28.3344 11.1548 29.3334 13.4742 29.3334 16C29.3334 18.5257 28.3344 20.8452 26.6667 22.6666"
           stroke="currentColor"
           strokeWidth="3"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </svg>
+    );
+  },
+  Arrow: (props: IconProps) => {
+    return (
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="32"
+        height="32"
+        viewBox="0 0 32 32"
+        fill="none"
+        {...props}
+      >
+        <path
+          d="M12.9523 10.6666H24.3809V22.0952"
+          stroke="currentColor"
+          strokeWidth="2.66667"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+        <path
+          d="M5.33334 19.0476L12.6625 23.0476L24.3809 10.6666"
+          stroke="currentColor"
+          strokeWidth="2.66667"
           strokeLinecap="round"
           strokeLinejoin="round"
         />
