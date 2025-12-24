@@ -28,7 +28,7 @@
 }
 
 ::selection {
-  @apply bg-black text-[#dadade];
+  @apply bg-neutral-300 text-black;
 }
 
 body {

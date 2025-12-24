@@ -10,6 +10,7 @@ import { ReactTempus } from "tempus/react";
 
 export const metadata: Metadata = {
   title: "Hashversion",
+  description: "I'm Jay Krishna, a multidisciplinary designer, product engineer, and polymath",
   icons: [
     {
       media: "(prefers-color-scheme: light)",
