@@ -8,8 +8,8 @@ export function Projects() {
         <div>
           <h1 className="font-krylon mb-8 text-[32px]">Projects</h1>
           <div className="grid grid-cols-3">
-            <div className="w-[256px] space-y-[21px] rounded-[14px] border border-[#dcdcdc] bg-[#fafafa] p-[14px] dark:border-neutral-800 dark:bg-neutral-900">
-              <div className="w-ful flex items-center gap-8 border-b border-[#dadade] pb-3 dark:border-neutral-600">
+            <div className="w-[256px] space-y-[21px] rounded-[14px] border border-[#dcdcdc] bg-[#fafafa] p-[14px]">
+              <div className="w-ful flex items-center gap-8 border-b border-[#dadade] pb-3">
                 <Icons.Vazen width={32} height={32} />
                 <div className="gap[3px] flex flex-col">
                   <h2>Vazen</h2>
@@ -17,14 +17,14 @@ export function Projects() {
                 </div>
               </div>
               <div className="space-y-4">
-                <p className="text-[13px] text-[#1E1E1E] dark:text-neutral-400">
+                <p className="text-[13px] text-[#1E1E1E]">
                   A production-grade monorepo starter for building full-stack applications on cloudflare
                 </p>
                 <div className="flex items-center justify-between">
                   <a
                     href="https://github.com/hashversion/vazen"
                     target="_blank"
-                    className="inline-flex items-center gap-[6px] rounded-[13px] border border-[#dcdcdc] bg-white p-2 text-[13px] duration-200 hover:bg-[#dadade] dark:border-neutral-800 dark:bg-neutral-800 dark:hover:bg-neutral-950"
+                    className="inline-flex items-center gap-[6px] rounded-[13px] border border-[#dcdcdc] bg-white p-2 text-[13px] duration-200 hover:bg-[#dadade]"
                   >
                     Visit
                     <span>

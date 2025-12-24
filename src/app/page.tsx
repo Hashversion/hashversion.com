@@ -31,7 +31,7 @@ export default function Home() {
     <>
       <section>
         <Container>
-          <div className="flex items-center justify-between border-b border-[#dadade] pb-2 text-[#626266] dark:border-neutral-500 dark:text-neutral-300">
+          <div className="flex items-center justify-between border-b border-[#dadade] pb-2 text-[#626266]">
             <ul className="flex items-center justify-center gap-3">
               {PROFILE_META.map((item) => {
                 return (
@@ -57,8 +57,8 @@ export default function Home() {
             <ul>
               <li className="flex items-center justify-center gap-4">
                 <Icons.Volume width={12} height={12} />
-                <div className="flex h-5 w-10 items-center rounded-full bg-[#E6E6E6] px-1 dark:bg-neutral-200">
-                  <div className="size-3.5 rounded-full bg-[#fefefe] dark:bg-black" />
+                <div className="flex h-5 w-10 items-center rounded-full bg-[#E6E6E6] px-1">
+                  <div className="size-3.5 rounded-full bg-[#fefefe]" />
                 </div>
               </li>
             </ul>

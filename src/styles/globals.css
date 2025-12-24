@@ -13,29 +13,22 @@
   --font-krylon: var(--font-krylon);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #000000;
-    --foreground: #ffffff;
-  }
-}
-
 * {
   &::-webkit-scrollbar {
     width: 0.25rem;
   }
 
   &::-webkit-scrollbar-track {
-    @apply bg-white dark:bg-black;
+    @apply bg-white;
   }
 
   &::-webkit-scrollbar-thumb {
-    @apply bg-black dark:bg-neutral-700;
+    @apply bg-black;
   }
 }
 
 ::selection {
-  @apply bg-black text-[#dadade] dark:bg-[#dadade] dark:text-black;
+  @apply bg-black text-[#dadade];
 }
 
 body {
