@@ -7,7 +7,7 @@ export function Bio() {
         <div className="flex gap-12 border-b border-[#dadade] pb-5">
           <div className="content-end space-y-2">
             <div className="relative size-[100px]">
-              <Image src={"/images/squirrel.png"} alt="squirrel on banana" fill />
+              <Image src={"/images/squirrel.png"} alt="squirrel on banana" fill loading="eager" />
             </div>
             <p className="font-krylon text-[14px]">Squirrel Baby</p>
           </div>
