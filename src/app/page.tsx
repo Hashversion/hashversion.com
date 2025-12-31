@@ -8,7 +8,7 @@ export default function Home() {
     <>
       <motion.main
         initial={{ clipPath: "inset(0 0 100% 0)" }}
-        animate={{ clipPath: "inset(0 0 0% 0)" }}
+        animate={{ clipPath: "inset(0 0 0% 0)", y: 21 }}
         transition={{ duration: 0.44, delay: 1.53, ease: "circInOut" }}
       >
         <InfoNav />
