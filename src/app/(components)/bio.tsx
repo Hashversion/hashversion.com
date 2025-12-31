@@ -13,7 +13,7 @@ export function Bio() {
           </div>
           <div className="grow text-[#323232]">
             <div className="flex flex-col gap-8">
-              <div className="flex items-baseline gap-4">
+              <div className="flex w-fit items-baseline gap-4">
                 <div className="size-2 rounded-[3px] bg-black" />
                 <p className="w-[430px] text-[12px]">
                   Hello, I’m Jay Krishna, a 21 y/o high-school dropout multidisciplinary designer, product
@@ -27,14 +27,14 @@ export function Bio() {
                   </a>
                 </p>
               </div>
-              <div className="flex translate-x-26 items-baseline gap-4">
+              <div className="flex w-fit translate-x-26 items-baseline gap-4">
                 <div className="size-2 rounded-[3px] bg-black" />
                 <p className="w-[487px] text-[12px]">
                   I’m currently working on my personal projects and i’m open to full-time design engineering
                   or full-stack roles
                 </p>
               </div>
-              <div className="flex translate-x-52 items-baseline gap-4">
+              <div className="flex w-fit translate-x-52 items-baseline gap-4">
                 <div className="size-2 rounded-[3px] bg-black" />
                 <p className="text-[12px]">
                   In my free time, I like to listen to music and watch squirrels roam around
