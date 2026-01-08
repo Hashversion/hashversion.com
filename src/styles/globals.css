@@ -13,25 +13,27 @@
   --font-krylon: var(--font-krylon);
 }
 
-* {
-  &::-webkit-scrollbar {
-    width: 0.25rem;
+@layer base {
+  * {
+    &::-webkit-scrollbar {
+      width: 0.25rem;
+    }
+
+    &::-webkit-scrollbar-track {
+      @apply bg-white;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      @apply bg-black;
+    }
   }
 
-  &::-webkit-scrollbar-track {
-    @apply bg-white;
+  ::selection {
+    @apply bg-neutral-300 text-black;
   }
 
-  &::-webkit-scrollbar-thumb {
-    @apply bg-black;
+  body {
+    background: var(--background);
+    color: var(--foreground);
   }
-}
-
-::selection {
-  @apply bg-neutral-300 text-black;
-}
-
-body {
-  background: var(--background);
-  color: var(--foreground);
 }
