@@ -36,7 +36,7 @@ export default function RootLayout({
         <m.body
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
-          transition={{ duration: 1.23 }}
+          transition={{ duration: 1.23, ease: [0.455, 0.03, 0.515, 0.955] }}
           className={`font-sans antialiased`}
         >
           <Header />
