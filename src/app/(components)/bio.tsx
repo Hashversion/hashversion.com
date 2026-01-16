@@ -16,22 +16,15 @@ export function Bio() {
               <div className="flex w-fit items-baseline gap-4">
                 <div className="size-2 rounded-[3px] bg-black" />
                 <p className="w-[430px] text-[12px]">
-                  Hello, I’m Jay Krishna, a 21 y/o high-school dropout multidisciplinary designer, product
-                  engineer, polymath, and young jury member{" "}
-                  <a
-                    href="https://awwwards.com/jury-member/jaykrishna"
-                    target="_blank"
-                    className="underline underline-offset-2"
-                  >
-                    @Awwwards
-                  </a>
+                  Hello, I’m Jay Krishna, a 21 y/o high-school dropout full-stack / product engineer, and a
+                  polymath
                 </p>
               </div>
               <div className="flex w-fit translate-x-26 items-baseline gap-4">
                 <div className="size-2 rounded-[3px] bg-black" />
                 <p className="w-[487px] text-[12px]">
-                  I’m currently working on my personal projects and i’m open to full-time design engineering
-                  or full-stack roles
+                  Currently working on my personal projects and open to full-stack or product engineering
+                  roles
                 </p>
               </div>
               <div className="flex w-fit translate-x-52 items-baseline gap-4">
